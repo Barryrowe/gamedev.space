@@ -1,0 +1,11 @@
+.space--list {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.space--list li {
+  margin: 30px;
+}
+.space--logo img {
+  width: 100px;
+}
