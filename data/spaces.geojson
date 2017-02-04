@@ -1,0 +1,110 @@
+{ 
+  "type": "FeatureCollection",
+  "crs": {
+    "type": "name",
+    "properties": {
+        "name": "EPSG:4326"
+    }
+  },
+  "features": [
+    { 
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-78.842355, 42.934670]},
+      "properties": {
+        "name": "Buffalo Game Space",
+        "url": "https://buffalogamespace.com/",
+        "twitter_name":"@BuffGameSpace",
+        "address":"Buffalo, New York, USA",
+        "logo":"logos/buffalo-game-space.png"
+      }
+    },
+    { 
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-87.673522, 41.949235]},
+      "properties": {
+        "name": "Indie City Co-op",
+        "url": "http://indiecitycoop.com/",
+        "twitter_name":"@IndieCityCoop",
+        "address":"Chicago, Illinois, USA",
+        "logo":"logos/indie-city-co-op.png"
+      }
+    },  
+    { 
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-122.409325, 37.777532]},
+      "properties": {
+        "name": "The Gamenest",
+        "url": "http://thegamenest.com/",
+        "twitter_name":"@gamenest",
+        "address":"San Fancisco, California, USA",
+        "logo":"logos/the-gamenest.jpg"
+      }
+    },
+    { 
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-118.390411, 34.026956]},
+      "properties": {
+        "name": "Glitch City",
+        "url": "https://glitch.city/",
+        "twitter_name":"@glitchcityla",
+        "address":"Los Angeles, California, USA",
+        "logo":"logos/glitch-city.png"
+      }
+    },
+    { 
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-75.145654, 39.948851]},
+      "properties": {
+        "name": "Philly Game Forge",
+        "url": "http://www.phillygameforge.com/",
+        "twitter_name":"@PhillyGameForge",
+        "address":"Philadelphia, Pennsylvania, USA",
+        "logo":"logos/philly-game-forge.png"
+      }
+    },
+    { 
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-85.760241, 38.257454]},
+      "properties": {
+        "name": "Warp Zone Louisville",
+        "url": "http://louisvillemakesgames.org/warpzone/",
+        "twitter_name":"@LouMakesGames",
+        "address":"Louisville, Kentucky, USA",
+        "logo":"logos/warp-zone-louisville.png"
+      }
+    },
+    { 
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-0.139580, 50.833509]},
+      "properties": {
+        "name": "Brighton Game Collective",
+        "url": "http://brightongamecollective.com/",
+        "twitter_name":"@TheBrightonGC",
+        "address":"Brighton, UK",
+        "logo":"logos/brighton-game-collective.png"
+      }
+    },
+    { 
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [5.107934, 52.088746]},
+      "properties": {
+        "name": "Dutch Game Garden",
+        "url": "http://www.dutchgamegarden.nl/",
+        "twitter_name":"@dutchgamegarden",
+        "address":"Utrecht, Netherlands",
+        "logo":"logos/dutch-game-garden.png"
+      }
+    },
+    { 
+      "type": "Feature",
+      "geometry": {"type": "Point", "coordinates": [-79.412290, 43.644502]},
+      "properties": {
+        "name": "Gamma Space",
+        "url": "https://bentomiso.com/",
+        "twitter_name":"@GammaSpaceTO",
+        "address":"Toronto, Ontario, Canada",
+        "logo":"logos/gamma-space.jpg"
+      }
+    }
+  ]
+}

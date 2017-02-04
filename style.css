@@ -1,11 +1,90 @@
+html, body{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+header#header{
+  width: 100%;
+  text-align: center;
+  height: 10%;
+}
+
+header#header h1{
+  margin: 0;
+  padding: 5px 0 10px 0;
+}
+
+header#header p{
+  margin: 0;
+}
+
+footer#footer{
+  width: 100%;
+  text-align: center;
+  height: 10%;
+}
+
+footer#footer h2{
+  margin: 0;
+  padding: 0 0 5px 0;
+}
+footer#footer p{
+  margin: 0;
+}
+
+#content{
+  height: 80%;
+}
+
 .space--list {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+.sidepanel h2{
+  margin-left: 0.5em;
 }
 .space--list li {
   margin: 30px;
 }
 .space--logo img {
   width: 100px;
+}
+
+
+.spaces:-moz-full-screen,
+.spaces:-webkit-full-screen,
+.spaces:-ms-fullscreen,
+.spaces:fullscreen {
+  height: 100%;
+}
+
+.spaces {  
+  width: 100%;
+  height: 100%;
+}
+
+.ol-rotate {
+  top: 3em;
+}
+
+.map {
+  width: 80%;
+  height: 100%;
+  float: right;
+}
+
+.sidepanel {  
+  width: 20%;
+  height: 100%;
+  float: right;
+  overflow-y: auto;
+}
+
+.sidepanel-title {
+  width: 100%;
+  font-size: 3em;  
+  display: block;
+  text-align: center;
 }

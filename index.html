@@ -4,149 +4,165 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Game Development Spaces</title>
+    <title>Game Development Spaces</title>    
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.20.1/ol.css" />
   </head>
 
-  <body>
-    <h1>Game Development Spaces</h1>
-    <p>This is a list of all the game development spaces around the world. A game development space is a physical space where game developers <a href="https://en.wikipedia.org/wiki/Coworking">co-work</a> or socialize.</p>
+  <body>       
+     <div id="controls" class="spaces">
+        <header id="header">
+          <h1>Game Development Spaces</h1>
+          <p>This is a list of all the game development spaces around the world. A game development space is a physical space where game developers <a href="https://en.wikipedia.org/wiki/Coworking">co-work</a> or socialize.</p>
+        </header>
+      <div id="content">  
+        <div id="map" class="map"></div>
+        <div class="sidepanel">          
+          <h2>USA</h2>
+          <ul class="space--list">
+            <li class="space">
+              <div class="space--logo">
+                <a href="https://buffalogamespace.com/">
+                  <img alt="Buffalo Game Space" src="logos/buffalo-game-space.png" />
+                </a>
+              </div>
+              <div class="space--name">
+                <a href="https://buffalogamespace.com/">Buffalo Game Space</a>
+              </div>
+              <div class="space--location">Buffalo, New York, USA</div>
+              <div class="space--twitter">
+                <a href="https://twitter.com/BuffGameSpace">@BuffGameSpace</a>
+              </div>
+            </li>
+            <li class="space">
+              <div class="space--logo">
+                <a href="http://indiecitycoop.com/">
+                  <img alt="Indie City Co-op" src="logos/indie-city-co-op.png" />
+                </a>
+              </div>
+              <div class="space--name">
+                <a href="http://indiecitycoop.com/">Indie City Co-op</a>
+              </div>
+              <div class="space--location">Chicago, Illinois, USA</div>
+              <div class="space--twitter">
+                <a href="https://twitter.com/IndieCityCoop">@IndieCityCoop</a>
+              </div>
+            </li>
+            <li class="space">
+              <div class="space--logo">
+                <a href="http://thegamenest.com/">
+                  <img alt="The Gamenest" src="logos/the-gamenest.jpg" />
+                </a>
+              </div>
+              <div class="space--name">
+                <a href="http://thegamenest.com/">The Gamenest</a>
+              </div>
+              <div class="space--location">San Francisco, California, USA</div>
+              <div class="space--twitter">
+                <a href="https://twitter.com/gamenest">@gamenest</a>
+              </div>
+            </li>
+            <li class="space">
+              <div class="space--logo">
+                <a href="https://glitch.city/">
+                  <img alt="Glitch City" src="logos/glitch-city.png" />
+                </a>
+              </div>
+              <div class="space--name">
+                <a href="https://glitch.city/">Glitch City</a>
+              </div>
+              <div class="space--location">Los Angeles, California, USA</div>
+              <div class="space--twitter">
+                <a href="https://twitter.com/glitchcityla">@glitchcityla</a>
+              </div>
+            </li>
+            <li class="space">
+              <div class="space--logo">
+                <a href="http://www.phillygameforge.com/">
+                  <img alt="Philly Game Forge" src="logos/philly-game-forge.png" />
+                </a>
+              </div>
+              <div class="space--name">
+                <a href="http://www.phillygameforge.com/">Philly Game Forge</a>
+              </div>
+              <div class="space--location">Philadelphia, Pennsylvania, USA</div>
+              <div class="space--twitter">
+                <a href="https://twitter.com/PhillyGameForge">@PhillyGameForge</a>
+              </div>
+            </li>
+            <li class="space">
+              <div class="space--logo">
+                <a href="http://louisvillemakesgames.org/warpzone/">
+                  <img alt="Warp Zone Louisville" src="logos/warp-zone-louisville.png" />
+                </a>
+              </div>
+              <div class="space--name">
+                <a href="http://louisvillemakesgames.org/warpzone/">Warp Zone Louisville</a>
+              </div>
+              <div class="space--location">Louisville, Kentucky, USA</div>
+              <div class="space--twitter">
+                <a href="https://twitter.com/LouMakesGames">@LouMakesGames</a>
+              </div>
+            </li>
+          </ul>
 
-    <h2>USA</h2>
-    <ul class="space--list">
-      <li class="space">
-        <div class="space--logo">
-          <a href="https://buffalogamespace.com/">
-            <img alt="Buffalo Game Space" src="logos/buffalo-game-space.png" />
-          </a>
+          <h2>World</h2>
+          <ul class="space--list">
+            <li class="space">
+              <div class="space--logo">
+                <a href="http://brightongamecollective.com/">
+                  <img alt="Brighton Game Collective" src="logos/brighton-game-collective.png" />
+                </a>
+              </div>
+              <div class="space--name">
+                <a href="http://brightongamecollective.com/">Brighton Game Collective</a>
+              </div>
+              <div class="space--location">Brighton, UK</div>
+              <div class="space--twitter">
+                <a href="https://twitter.com/TheBrightonGC">@TheBrightonGC</a>
+              </div>
+            </li>
+            <li class="space">
+              <div class="space--logo">
+                <a href="http://www.dutchgamegarden.nl/">
+                  <img alt="Dutch Game Garden" src="logos/dutch-game-garden.png" />
+                </a>
+              </div>
+              <div class="space--name">
+                <a href="http://www.dutchgamegarden.nl/">Dutch Game Garden</a>
+              </div>
+              <div class="space--location">Utrecht, Netherlands</div>
+              <div class="space--twitter">
+                <a href="https://twitter.com/dutchgamegarden">@dutchgamegarden</a>
+              </div>
+            </li>
+            <li class="space">
+              <div class="space--logo">
+                <a href="https://bentomiso.com/">
+                  <img alt="Gamma Space" src="logos/gamma-space.jpg" />
+                </a>
+              </div>
+              <div class="space--name">
+                <a href="https://bentomiso.com/">Gamma Space</a>
+              </div>
+              <div class="space--location">Toronto, Ontario, Canada</div>
+              <div class="space--twitter">
+                <a href="https://twitter.com/GammaSpaceTO">@GammaSpaceTO</a>
+              </div>
+            </li>
+          </ul>  
         </div>
-        <div class="space--name">
-          <a href="https://buffalogamespace.com/">Buffalo Game Space</a>
-        </div>
-        <div class="space--location">Buffalo, New York, USA</div>
-        <div class="space--twitter">
-          <a href="https://twitter.com/BuffGameSpace">@BuffGameSpace</a>
-        </div>
-      </li>
-      <li class="space">
-        <div class="space--logo">
-          <a href="http://indiecitycoop.com/">
-            <img alt="Indie City Co-op" src="logos/indie-city-co-op.png" />
-          </a>
-        </div>
-        <div class="space--name">
-          <a href="http://indiecitycoop.com/">Indie City Co-op</a>
-        </div>
-        <div class="space--location">Chicago, Illinois, USA</div>
-        <div class="space--twitter">
-          <a href="https://twitter.com/IndieCityCoop">@IndieCityCoop</a>
-        </div>
-      </li>
-      <li class="space">
-        <div class="space--logo">
-          <a href="http://thegamenest.com/">
-            <img alt="The Gamenest" src="logos/the-gamenest.jpg" />
-          </a>
-        </div>
-        <div class="space--name">
-          <a href="http://thegamenest.com/">The Gamenest</a>
-        </div>
-        <div class="space--location">San Francisco, California, USA</div>
-        <div class="space--twitter">
-          <a href="https://twitter.com/gamenest">@gamenest</a>
-        </div>
-      </li>
-      <li class="space">
-        <div class="space--logo">
-          <a href="https://glitch.city/">
-            <img alt="Glitch City" src="logos/glitch-city.png" />
-          </a>
-        </div>
-        <div class="space--name">
-          <a href="https://glitch.city/">Glitch City</a>
-        </div>
-        <div class="space--location">Los Angeles, California, USA</div>
-        <div class="space--twitter">
-          <a href="https://twitter.com/glitchcityla">@glitchcityla</a>
-        </div>
-      </li>
-      <li class="space">
-        <div class="space--logo">
-          <a href="http://www.phillygameforge.com/">
-            <img alt="Philly Game Forge" src="logos/philly-game-forge.png" />
-          </a>
-        </div>
-        <div class="space--name">
-          <a href="http://www.phillygameforge.com/">Philly Game Forge</a>
-        </div>
-        <div class="space--location">Philadelphia, Pennsylvania, USA</div>
-        <div class="space--twitter">
-          <a href="https://twitter.com/PhillyGameForge">@PhillyGameForge</a>
-        </div>
-      </li>
-      <li class="space">
-        <div class="space--logo">
-          <a href="http://louisvillemakesgames.org/warpzone/">
-            <img alt="Warp Zone Louisville" src="logos/warp-zone-louisville.png" />
-          </a>
-        </div>
-        <div class="space--name">
-          <a href="http://louisvillemakesgames.org/warpzone/">Warp Zone Louisville</a>
-        </div>
-        <div class="space--location">Louisville, Kentucky, USA</div>
-        <div class="space--twitter">
-          <a href="https://twitter.com/LouMakesGames">@LouMakesGames</a>
-        </div>
-      </li>
-    </ul>
+      </div>
+      <footer id="footer">
+        <h2>Add a Space</h2>
+        <p>Can't find your favorite space on the list? <a href="https://github.com/ericlathrop/gamedev.space">Send a pull request to add it!</a></p>
+      </footer>
+    </div>  
 
-    <h2>World</h2>
-    <ul class="space--list">
-      <li class="space">
-        <div class="space--logo">
-          <a href="http://brightongamecollective.com/">
-            <img alt="Brighton Game Collective" src="logos/brighton-game-collective.png" />
-          </a>
-        </div>
-        <div class="space--name">
-          <a href="http://brightongamecollective.com/">Brighton Game Collective</a>
-        </div>
-        <div class="space--location">Brighton, UK</div>
-        <div class="space--twitter">
-          <a href="https://twitter.com/TheBrightonGC">@TheBrightonGC</a>
-        </div>
-      </li>
-      <li class="space">
-        <div class="space--logo">
-          <a href="http://www.dutchgamegarden.nl/">
-            <img alt="Dutch Game Garden" src="logos/dutch-game-garden.png" />
-          </a>
-        </div>
-        <div class="space--name">
-          <a href="http://www.dutchgamegarden.nl/">Dutch Game Garden</a>
-        </div>
-        <div class="space--location">Utrecht, Netherlands</div>
-        <div class="space--twitter">
-          <a href="https://twitter.com/dutchgamegarden">@dutchgamegarden</a>
-        </div>
-      </li>
-      <li class="space">
-        <div class="space--logo">
-          <a href="https://bentomiso.com/">
-            <img alt="Gamma Space" src="logos/gamma-space.jpg" />
-          </a>
-        </div>
-        <div class="space--name">
-          <a href="https://bentomiso.com/">Gamma Space</a>
-        </div>
-        <div class="space--location">Toronto, Ontario, Canada</div>
-        <div class="space--twitter">
-          <a href="https://twitter.com/GammaSpaceTO">@GammaSpaceTO</a>
-        </div>
-      </li>
-    </ul>
+   
 
-    <h2>Add a Space</h2>
-    <p>Can't find your favorite space on the list? <a href="https://github.com/ericlathrop/gamedev.space">Send a pull request to add it!</a></p>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/ol3/3.20.1/ol.js"></script>
+    <script type="text/javascript" src="js/map.js"></script>
+   
   </body>
 </html>
